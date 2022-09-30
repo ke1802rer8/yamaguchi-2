@@ -1,0 +1,30 @@
+.btn{
+    background-color: #A6FFFF;
+    border: none;
+    max-width: 12.9rem;
+    width: 100%;
+    padding: 5rem 3rem;
+    border-radius: 57%;
+    color: black;
+    cursor: pointer;
+    &:hover{
+        background-color: white;
+        box-shadow: 0px 5px 10rem #A6FFFF;
+    }
+    position: relative;
+    z-index: 40;
+
+}
+
+.button{
+    position: absolute;
+    display: flex;
+    max-width: 32rem;
+    width: 100%;
+    justify-content: space-between;
+    top: 52rem;
+    right: 57%;
+    z-index: 10;
+
+}
+

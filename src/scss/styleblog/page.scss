@@ -1,0 +1,100 @@
+.page__display{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page__block-text{
+    max-width: 55.6rem;
+    width: 100%;
+    margin-top: 9rem;
+}
+
+.page__title{
+    color: #0B64FE;
+    font-size: 6.2rem;
+    padding-bottom: 6rem;
+    max-width: 51.6rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.page__description{
+    font-size: 2.4rem;
+    line-height: 1.7;
+    color: #181818;
+    padding-bottom: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.page__block-img{
+    max-width: 97.5rem;
+    width: 100%;
+    margin-top: 12rem;
+    
+}
+.page__img{
+    position: relative;
+    right: -3rem;
+    max-width: 77.2rem;
+    width: 100%;
+}
+.img__table{
+    max-width: 72.5rem;
+    width: 100%;
+    
+   
+    margin: 0 auto;
+    background-position-x: 50%;
+    
+    background-repeat: no-repeat;
+    
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position: relative;
+    img{
+        width: 100%;
+    }
+}
+
+
+@keyframes body-animation{
+    0%{
+        
+        background-position-y: 100%;
+        
+    }
+    100%{
+        background-position-y: 40%;
+        
+    }
+}
+
+
+.img__legs img{
+ 
+   
+    width: 100%;
+}
+.img__legs {
+    margin: 0 auto;
+    max-width: 71.7rem;
+    width: 100%;
+    z-index: 5;
+    position: relative;
+}
+
+
+
+.img__footer{
+    z-index: -1;
+    position: relative;
+    top: -3rem;
+}
+.page__img img{
+    max-width: 75.2rem;
+    width: 100%;
+}
+
+.display__media-block{
+    display: none;
+}
+
+
