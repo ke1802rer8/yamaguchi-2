@@ -55,17 +55,7 @@
 }
 
 
-@keyframes body-animation{
-    0%{
-        
-        background-position-y: 100%;
-        
-    }
-    100%{
-        background-position-y: 40%;
-        
-    }
-}
+
 
 
 .img__legs img{
@@ -83,11 +73,7 @@
 
 
 
-.img__footer{
-    z-index: -1;
-    position: relative;
-    top: -3rem;
-}
+
 .page__img img{
     max-width: 75.2rem;
     width: 100%;

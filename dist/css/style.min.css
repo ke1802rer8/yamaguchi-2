@@ -1,24 +1,3 @@
-@font-face {
-  font-family: BanderaProHeavy;
-  font-display: swap;
-  src: url("../fonts/BanderaProHeavy.woff") format("woff"), url("../fonts/BanderaProHeavy.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: BanderaProLight;
-  font-display: swap;
-  src: url("../fonts/BanderaProLight.woff") format("woff"), url("../fonts/BanderaProLight.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: UF1;
-  font-display: swap;
-  src: url("../fonts/UF1.woff") format("woff"), url("../fonts/UF1.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
@@ -422,14 +401,6 @@ textarea {
   width: 100%;
 }
 
-@keyframes body-animation {
-  0% {
-    background-position-y: 100%;
-  }
-  100% {
-    background-position-y: 40%;
-  }
-}
 .img__legs img {
   width: 100%;
 }
@@ -440,12 +411,6 @@ textarea {
   width: 100%;
   z-index: 5;
   position: relative;
-}
-
-.img__footer {
-  z-index: -1;
-  position: relative;
-  top: -3rem;
 }
 
 .page__img img {
@@ -500,7 +465,7 @@ textarea {
   .page__title {
     color: #0B64FE;
     font-size: 5.6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
     max-width: 50.6rem;
   }
   .img__legs {
@@ -508,6 +473,7 @@ textarea {
   }
   .page__block-text {
     max-width: 51.6rem;
+    margin-top: 4rem;
   }
   .page__description {
     font-size: 2.1rem;
