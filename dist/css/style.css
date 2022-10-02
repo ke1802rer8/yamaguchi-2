@@ -1,3 +1,24 @@
+@font-face {
+  font-family: BanderaProHeavy;
+  font-display: swap;
+  src: url("../fonts/BanderaProHeavy.woff") format("woff"), url("../fonts/BanderaProHeavy.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: BanderaProLight;
+  font-display: swap;
+  src: url("../fonts/BanderaProLight.woff") format("woff"), url("../fonts/BanderaProLight.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: UF1;
+  font-display: swap;
+  src: url("../fonts/UF1.woff") format("woff"), url("../fonts/UF1.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
@@ -553,6 +574,7 @@ textarea {
     max-width: 97.5rem;
     width: 100%;
     margin-top: 5rem;
+    padding-right: 0;
   }
   .button {
     top: 67rem;
@@ -582,8 +604,18 @@ textarea {
     position: relative;
     z-index: 40;
   }
+  .page__title {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 700;
+  }
   .button {
     max-width: 19rem;
+  }
+}
+@media (max-width: 385px) {
+  .button {
+    max-width: 15rem;
+    top: 72rem;
   }
 }
 @media (max-width: 375px) {
@@ -606,6 +638,7 @@ textarea {
   }
   .button {
     max-width: 15rem;
+    top: 67rem;
   }
 }
 html {
